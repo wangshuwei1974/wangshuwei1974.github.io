@@ -37,13 +37,6 @@
   </url>
   
   <url>
-    <loc>http://wangshuwei1974.github.io/</loc>
-    <lastmod>2018-11-05T16:01:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://wangshuwei1974.github.io/post/</loc>
     <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -81,6 +74,13 @@
   <url>
     <loc>http://wangshuwei1974.github.io/categories/theme-preview/</loc>
     <lastmod>2018-07-10T00:00:00+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://wangshuwei1974.github.io/</loc>
+    <lastmod>2018-11-05T16:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -156,14 +156,14 @@
   </url>
   
   <url>
-    <loc>http://wangshuwei1974.github.io/categories/shortcodes/</loc>
+    <loc>http://wangshuwei1974.github.io/tags/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://wangshuwei1974.github.io/tags/shortcodes/</loc>
+    <loc>http://wangshuwei1974.github.io/categories/shortcodes/</loc>
     <lastmod>2018-02-01T18:01:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
