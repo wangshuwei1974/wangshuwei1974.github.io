@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on Wangshuwei&#39;s blog </title>
+    <link>https://wangshuwei1974.github.io/tags/test/</link>
+    <description>Recent content in test on Wangshuwei&#39;s blog </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 25 Oct 2019 16:01:53 +0800</lastBuildDate>
+    
+	<atom:link href="https://wangshuwei1974.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Testfile</title>
+      <link>https://wangshuwei1974.github.io/post/testfile/</link>
+      <pubDate>Fri, 25 Oct 2019 16:01:53 +0800</pubDate>
+      
+      <guid>https://wangshuwei1974.github.io/post/testfile/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

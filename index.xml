@@ -6,7 +6,7 @@
     <description>Recent content on Wangshuwei&#39;s blog </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Jul 2018 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2019 16:01:53 +0800</lastBuildDate>
     
 	<atom:link href="https://wangshuwei1974.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -29,6 +29,15 @@
       <description>Hugo is a static site engine written in Go.
 It makes use of a variety of open source projects including:
  Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Testfile</title>
+      <link>https://wangshuwei1974.github.io/post/testfile/</link>
+      <pubDate>Fri, 25 Oct 2019 16:01:53 +0800</pubDate>
+      
+      <guid>https://wangshuwei1974.github.io/post/testfile/</guid>
+      <description></description>
     </item>
     
     <item>
