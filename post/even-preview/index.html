@@ -50,11 +50,11 @@
 
 <meta itemprop="datePublished" content="2018-07-10T00:00:00&#43;08:00" />
 <meta itemprop="dateModified" content="2018-07-10T00:00:00&#43;08:00" />
-<meta itemprop="wordCount" content="2851">
+<meta itemprop="wordCount" content="2881">
 
 
 
-<meta itemprop="keywords" content="preview,Theme preview,tag-3," />
+<meta itemprop="keywords" content="preview,Theme preview," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Theme preview"/>
 <meta name="twitter:description" content="Based on MarkdownPreview test.md. Markdown 1 2 3 4 5 6 7 8 # H1 ## H2 ### H3 #### H4 ##### H5 ###### H6 ### Duplicate Header ### Duplicate Header H1 H2 H3 H4 H5 H6 Duplicate Header Duplicate Header Paragraphs 1 2 3 4 This is a paragraph. I am still part of the paragraph. New paragraph. This is a paragraph. I am still part of the paragraph."/>
@@ -130,8 +130,6 @@
         <span class="post-time"> 2018-07-10 </span>
         <div class="post-category">
             <a href="/categories/theme-preview/"> Theme preview </a>
-            <a href="/categories/category-2/"> category-2 </a>
-            <a href="/categories/category-3/"> category-3 </a>
             </div>
         
       </div>
@@ -496,6 +494,9 @@ is maintained by the W3C.
 <p>The HTML specification
 is maintained by the W3C.</p>
 
+<p>*[HTML]: Hyper Text Markup Language
+*[W3C]:  World Wide Web Consortium</p>
+
 <h2 id="unordered-list">Unordered List</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -569,32 +570,32 @@ more text
 
 1. item 1
     1. item A
-    2. item B
+    1. item B
         more text
         1. item a
         2. item b
         3. item c
-    3. item C
-2. item 2
-3. item 3</pre></td></tr></table>
+    1. item C
+1. item 2
+1. item 3</pre></td></tr></table>
 </div>
 </div>
 <p>Ordered List</p>
 
 <ol>
-<li>item 1
-
-<ol>
+<li>item 1</li>
 <li>item A</li>
 <li>item B
-more text
+ more text
 
 <ol>
 <li>item a</li>
-<li>item b</li>
+<li>item b
+
+<ol>
 <li>item c</li>
-</ol></li>
 <li>item C</li>
+</ol></li>
 </ol></li>
 <li>item 2</li>
 <li>item 3</li>
@@ -642,10 +643,10 @@ more text
 more text
 
 <ul class="task-list">
-<li><label><input type="checkbox" checked disabled class="task-list-item"> item a</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> item b</label></li>
-<li><label><input type="checkbox" checked disabled class="task-list-item"> item c</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item">   item a</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item">   item b</label></li>
 </ul></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> item c</label></li>
 <li><label><input type="checkbox" checked disabled class="task-list-item"> item C</label></li>
 </ul></label></li>
 <li><label><input type="checkbox" disabled class="task-list-item"> item 2</label></li>
@@ -927,35 +928,11 @@ function doIt() {
 | Green         | ~~***Pears***~~ | Spinach           |</pre></td></tr></table>
 </div>
 </div>
-<table>
-<thead>
-<tr>
-<th><em>Colors</em></th>
-<th align="center">Fruits</th>
-<th align="right">Vegetable</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>Red</td>
-<td align="center"><em>Apple</em></td>
-<td align="right">Pepper</td>
-</tr>
-
-<tr>
-<td><del>Orange</del></td>
-<td align="center">Oranges</td>
-<td align="right"><strong>Carrot</strong></td>
-</tr>
-
-<tr>
-<td>Green</td>
-<td align="center"><del><strong><em>Pears</em></strong></del></td>
-<td align="right">Spinach</td>
-</tr>
-</tbody>
-</table>
+<p>| <em>Colors</em>      | Fruits          | Vegetable    |
+| - |-:| -|
+| Red           | <em>Apple</em>         | Pepper       |
+| <del>Orange</del>    | Oranges         | <strong>Carrot</strong>   |
+| Green         | <del><strong><em>Pears</em></strong></del> | Spinach      |</p>
 
 <table>
 <thead>
@@ -1490,10 +1467,10 @@ $$
 
 <p>$$ E(\mathbf{v}, \mathbf{h}) = -\sum<em>{i,j}w</em>{ij}v_i h_j - \sum_i b_i v_i - \sum_j c_j h_j $$</p>
 
-<p>\[3 &lt; 4\]</p>
+<p>[3 &lt; 4]</p>
 
 <p>\begin{align}
-    p(v_i=1|\mathbf{h}) &amp; = \sigma\left(\sum<em>j w</em>{ij}h_j + b_i\right) <br />
+    p(v_i=1|\mathbf{h}) &amp; = \sigma\left(\sum<em>j w</em>{ij}h_j + b_i\right)
     p(h_j=1|\mathbf{v}) &amp; = \sigma\left(\sum<em>i w</em>{ij}v_i + c_j\right)
 \end{align}</p>
 
@@ -1569,7 +1546,6 @@ $$
       <div class="post-tags">
           <a href="/tags/preview/">preview</a>
           <a href="/tags/theme-preview/">Theme preview</a>
-          <a href="/tags/tag-3/">tag-3</a>
           </div>
       <nav class="post-nav">
         
